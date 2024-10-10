@@ -2,10 +2,10 @@
 
 ## Group Members :
 
-#### •	Kaustubh Dangche - A20550806
-#### •	Anu Singh - A20568373
-#### •	Hyunsung Ha - A20557555
-#### •	Nam Gyu Lee - A20487452
+#### •	Kaustubh Dangche - 
+#### •	Anu Singh - 
+#### •	Hyunsung Ha - 
+#### •	Nam Gyu Lee - 
 
 ## Overview:
 
@@ -112,12 +112,12 @@ To utilize the model, you will have to:
 
 #### Import the model
 ```python
-from my_elasticnet_model import ElasticNet
+from ElasticNet import ElasticNetModel
 ```
   
 #### Initialize the ElasticNet model with custom parameters
 ```python
-model = ElasticNet(alpha=0.5, l1_ratio=0.7, max_iter=1000, tol=1e-4)
+model = ElasticNetModel(alpha=0.5, l1_ratio=0.7, max_iter=1000, tol=1e-4)
 ```
   
 #### Train the model with training data (X_train and y_train)
